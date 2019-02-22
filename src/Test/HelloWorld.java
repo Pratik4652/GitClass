@@ -5,7 +5,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
-        System.out.println("Calculation");
+        System.out.println(" Hello world Calculation");
         Scanner reader = new Scanner(System.in);  // Reading from System.in
         System.out.println("Enter a first number: ");
         float a = reader.nextFloat();
