@@ -1,4 +1,5 @@
 package Test;
+
 import java.util.Scanner;
 public class HelloWorld {
 
@@ -11,26 +12,19 @@ public class HelloWorld {
 
         System.out.println("Enter a second number: ");
         float b = reader.nextFloat();
-
+        //creating instance of object
         calculator obj = new calculator();
-        System.out.println( "When added" + obj.addition(a,b));
-       // calculator(a,b);
-        substraction(a,b);
-        multiplication(a,b);
-        division(a,b);
+        //adding
+        float d = obj.addition(a, b);
+        System.out.println("When added " + d);
+        // substracting
+        System.out.println("When substracted " + obj.substraction(a, b));
+        //multiplying
+        System.out.println("When multipled " + obj.multiplication(a, b));
+        //dividing
+        System.out.println("When divided " + obj.division(a, b));
 
     }
-  /*  public static void calculator(float a , float b){
-        System.out.println("When added: " + (a+b));
-    }*/
 
-    public static void substraction(float a , float b){
-        System.out.println("when substracted: " + (a-b));
-    }
-    public static void multiplication(float a , float b){
-        System.out.println("when multiply: " + (a*b));
-    }
-    public static void division(float a , float b){
-        System.out.println("when divide: " + (a/b));
-    }
+
 }
