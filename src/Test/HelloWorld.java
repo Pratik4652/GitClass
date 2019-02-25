@@ -2,7 +2,13 @@ package Test;
 
 import java.util.Scanner;
 public class HelloWorld {
-
+    class Add
+    {
+        int result=0;
+        Add(int x, int y){
+            result=x+y;
+        }
+    }
     public static void main(String[] args) {
 
         System.out.println(" Hello world Calculation");
