@@ -1,12 +1,1 @@
- Volume in drive C has no label.
- Volume Serial Number is 2492-B3CD
-
- Directory of C:\Users\Dolma Sherpa\Desktop\API\GIT-GITHUB\pratik-dai\GitClass
-
-07/24/2020  05:01 PM    <DIR>          .
-07/24/2020  05:01 PM    <DIR>          ..
-07/24/2020  04:58 PM                19 dolma.txt
-07/24/2020  04:42 PM                20 README.md
-07/24/2020  05:01 PM                 0 test2.txt
-               3 File(s)             39 bytes
-               2 Dir(s)  30,003,175,424 bytes free
+test file by dolma
